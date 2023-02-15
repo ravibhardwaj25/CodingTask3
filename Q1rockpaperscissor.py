@@ -87,6 +87,7 @@ elif user_score == comp_score:
 else:
     print("computer wins finally")
 
+# highscoring.txt is present in this repository only it is used to check the previous highscore of user.    
 with open("highscoring.txt","r") as f:
     highscore=int(f.read())
 if user_score>highscore:
